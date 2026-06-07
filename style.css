@@ -362,8 +362,14 @@ h2{
     }
 
     .about-title{
+        width: 100%;
+        margin: 0 auto 20px auto;
         text-align: center;
         font-size: 3rem;
+    }
+
+    .about-section{
+        text-align: center;
     }
 
     .photo-wrapper{
@@ -385,5 +391,7 @@ h2{
     .contact-form{
         width: 90%;
     }
+
+
 
 }
