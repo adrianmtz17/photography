@@ -250,6 +250,8 @@ h2{
    font-size: 3rem;
 }
 
+
+
 .city-gallery{
     columns: 3 250px;
     column-gap: 15px;
@@ -260,16 +262,15 @@ h2{
 .city-gallery img{
     width: 100%;
     margin-bottom: 15px;
-    border-radius: 0;
-
     break-inside: avoid;
     display: block;
 }
 
 .city-gallery img.moonlight{
-   height: 665px;
-   object-fit:cover;
+   height: auto;
+   object-fit: contain;
 }
+
 
 /*contact*/
 
