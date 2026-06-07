@@ -394,9 +394,10 @@ h2{
 
     .home-section{
         background-image: url("IMG_1806.jpg");
-        background-size: cover;
-        background-position: center center;
+        background-size: contain;
+        background-position: center top;
         background-repeat: no-repeat;
+        background-color: black;
     }
 
 }
