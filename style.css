@@ -139,11 +139,22 @@ h2{
 .portfolio-grid{
    
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: calc(100vh - 140px);
+    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
     width: 80%;
     margin: 0 auto;
 }
+
+@media (max-width: 900px){
+    .portfolio-grid{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .tile{
+        height: 350px;
+    }
+}
+
 
 .tile{
     position: relative;
@@ -151,7 +162,6 @@ h2{
     justify-content: center;
     align-items: center;
 
-    font-size: 3rem;
     color: white;
     text-decoration: none;
 
@@ -189,7 +199,11 @@ h2{
 
 .tile span{
     position: relative;
-    z-index: 1;
+    z-index: 2;
+    font-size: clamp(1.8rem,4vw, 3rem);
+    text-align: center;
+    line-height: 1.1;
+    padding: 10px;
 }
 
 .tile::after{
@@ -199,10 +213,6 @@ h2{
     background: rgba(0,0,0,0.35);
 }
 
-.tile span{
-    position: relative;
-    z-index: 2;
-}
 
 /*Nature tab*/
 .nature-title{
