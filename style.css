@@ -340,3 +340,50 @@ h2{
     opacity:1;
     transform: translateY(0);
 }
+
+@media only screen and (max-width: 700px){
+
+    section{
+        margin: 0;
+        padding: 60px 25px;
+        min-height: auto;
+    }
+
+    .about-container{
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .about-text{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .about-title{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .photo-wrapper{
+        width: 280px;
+        height: 280px;
+        margin: 0 auto;
+    }
+
+    .portfolio-grid{
+        grid-template-columns: 1fr;
+        width: 90%;
+        height: auto;
+    }
+
+    .tile{
+        height: 300px;
+    }
+
+    .contact-form{
+        width: 90%;
+    }
+
+}
