@@ -79,8 +79,8 @@ h2{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center -25%;
-    transform: scale(1.10);
+    object-position: center 30% 50% 40%;
+        transform: scale(1.40);
 }
 
 .about-text{
