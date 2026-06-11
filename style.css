@@ -400,6 +400,11 @@ h2{
         background-color: black;
     }
 
+    .navbar a {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
 }
 
 .nature-gallery img,
